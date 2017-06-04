@@ -53,8 +53,8 @@ public class MainActivity extends AppCompatActivity {
         verticalManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
 
         //构造函数（资源，一行多少列（vertical）/一列有多少行（Horizontal），布局的方向，是否颠倒顺序）
-        horizontalGridManager = new GridLayoutManager(this, 3, LinearLayoutManager.HORIZONTAL, false);
-        vertivalGridManager = new GridLayoutManager(this, 4, LinearLayoutManager.VERTICAL, false);
+        horizontalGridManager = new GridLayoutManager(this, 6, LinearLayoutManager.HORIZONTAL, false);
+        vertivalGridManager = new GridLayoutManager(this, 2, LinearLayoutManager.VERTICAL, false);
 
         //插入数据到List中
         for (int i = 0; i < 20; i++) {
